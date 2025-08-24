@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Social App",
+    "slug": "Social App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo_social-removebg-preview.png",
+    "scheme": "jo-app",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo_social-removebg-preview.png",
+        "backgroundColor": "#25292e"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo_social-removebg-preview.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo_social-removebg-preview.png",
+          "imageWidth": 300,
+          "resizeMode": "contain",
+          "backgroundColor": "#25292e"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+
+    "extra": {
+      "EXPO_PUBLIC_API_URL": "http://192.168.1.138:5000"
+    }
+  }
+}
