@@ -32,5 +32,4 @@ This project provides essential social features like user authentication, postin
 
 ---
 
-## 📂 Project Structure
 
