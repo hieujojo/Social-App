@@ -28,7 +28,6 @@ This project provides essential social features like user authentication, postin
 - [Express.js](https://expressjs.com/)
 - MongoDB & Mongoose
 - JWT Authentication
-- Socket.io (real-time)
 
 ---
 
